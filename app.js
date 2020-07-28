@@ -6,6 +6,6 @@ var appController = (function (uiCtrl, fiCtrl) {
   document.addEventListener("keypress", function (event) {
     if (event.keyCode === 13 || event.which===13) {
         ctrlAddItem();
-    } else 
-  });
+    };
+
 })(uiController, financeController);
